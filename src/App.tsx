@@ -1354,7 +1354,7 @@ function App() {
   const startQuiz = () => {
     // Randomly select 10 questions
     const shuffled = [...allQuestions].sort(() => 0.5 - Math.random());
-    setQuestions(shuffled.slice(0, 10));
+    setQuestions(shuffled.slice(0,20));
     setQuizStarted(true);
     setCurrentAnswers({});
     setShowResults(false);
