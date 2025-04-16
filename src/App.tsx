@@ -1108,6 +1108,226 @@ const allQuestions: Question[] = [
       "To buy a security only if certain conditions are met"
     ],
     correctAnswer: "To limit potential losses by selling a security when it reaches a certain price"
+  },
+  {
+    id: 101,
+    question: "What is the primary reason for the existence of \"dark pools\" in the securities market?",
+    options: [
+      "To increase market transparency",
+      "To allow large institutional investors to trade anonymously",
+      "To provide retail investors with better pricing",
+      "To facilitate high-frequency trading"
+    ],
+    correctAnswer: "To allow large institutional investors to trade anonymously"
+  },
+  {
+    id: 102,
+    question: "In the context of bond pricing, what does \"convexity\" measure?",
+    options: [
+      "The sensitivity of bond prices to changes in interest rates",
+      "The relationship between bond yields and maturity",
+      "The credit risk of the bond issuer",
+      "The liquidity of the bond"
+    ],
+    correctAnswer: "The sensitivity of bond prices to changes in interest rates"
+  },
+  {
+    id: 103,
+    question: "Which of the following best describes a \"reverse repo\" transaction?",
+    options: [
+      "A bank borrows funds by selling securities with an agreement to repurchase them later",
+      "A bank lends funds by purchasing securities with an agreement to sell them later",
+      "A bank issues new securities to raise capital",
+      "A bank buys back its own shares from the market"
+    ],
+    correctAnswer: "A bank lends funds by purchasing securities with an agreement to sell them later"
+  },
+  {
+    id: 104,
+    question: "What is the primary purpose of a \"synthetic CDO\" (Collateralized Debt Obligation)?",
+    options: [
+      "To pool physical assets and issue securities backed by them",
+      "To replicate the cash flows of a traditional CDO using derivatives",
+      "To provide insurance against credit defaults",
+      "To invest in high-yield bonds"
+    ],
+    correctAnswer: "To replicate the cash flows of a traditional CDO using derivatives"
+  },
+  {
+    id: 105,
+    question: "Which of the following is a key feature of a \"perpetual bond\"?",
+    options: [
+      "It has no maturity date",
+      "It pays no interest",
+      "It can be converted into equity",
+      "It is issued at a discount"
+    ],
+    correctAnswer: "It has no maturity date"
+  },
+  {
+    id: 106,
+    question: "What does the term \"gamma\" measure in the context of options trading?",
+    options: [
+      "The rate of change of delta with respect to the underlying asset's price",
+      "The sensitivity of the option price to changes in volatility",
+      "The time decay of the option's value",
+      "The relationship between the option price and interest rates"
+    ],
+    correctAnswer: "The rate of change of delta with respect to the underlying asset's price"
+  },
+  {
+    id: 107,
+    question: "Which of the following is a characteristic of a \"catastrophe bond\"?",
+    options: [
+      "It is issued by insurance companies to transfer risk related to natural disasters",
+      "It is a type of government bond with high credit ratings",
+      "It pays a fixed interest rate regardless of market conditions",
+      "It is only available to institutional investors"
+    ],
+    correctAnswer: "It is issued by insurance companies to transfer risk related to natural disasters"
+  },
+  {
+    id: 108,
+    question: "What is the primary purpose of a \"total return swap\"?",
+    options: [
+      "To exchange the total return of an asset for a fixed or floating payment",
+      "To hedge against currency risk",
+      "To speculate on the price of a commodity",
+      "To invest in a diversified portfolio of securities"
+    ],
+    correctAnswer: "To exchange the total return of an asset for a fixed or floating payment"
+  },
+  {
+    id: 109,
+    question: "Which of the following best describes a \"covered call\" strategy?",
+    options: [
+      "Selling a call option while owning the underlying asset",
+      "Buying a call option while shorting the underlying asset",
+      "Selling a put option while owning the underlying asset",
+      "Buying a put option while shorting the underlying asset"
+    ],
+    correctAnswer: "Selling a call option while owning the underlying asset"
+  },
+  {
+    id: 110,
+    question: "What does the term \"basis risk\" refer to in the context of hedging?",
+    options: [
+      "The risk that the hedge will not perfectly offset the underlying exposure",
+      "The risk of default by the counterparty",
+      "The risk of changes in interest rates",
+      "The risk of changes in market sentiment"
+    ],
+    correctAnswer: "The risk that the hedge will not perfectly offset the underlying exposure"
+  },
+  {
+    id: 111,
+    question: "Which of the following is a key feature of a \"structured note\"?",
+    options: [
+      "It is a debt security with embedded derivatives",
+      "It is a type of equity security with voting rights",
+      "It guarantees a fixed return on investment",
+      "It is only available to retail investors"
+    ],
+    correctAnswer: "It is a debt security with embedded derivatives"
+  },
+  {
+    id: 112,
+    question: "What is the primary purpose of a \"credit default swap\" (CDS)?",
+    options: [
+      "To provide insurance against the default of a bond or loan",
+      "To speculate on the price of a commodity",
+      "To hedge against currency risk",
+      "To invest in a diversified portfolio of securities"
+    ],
+    correctAnswer: "To provide insurance against the default of a bond or loan"
+  },
+  {
+    id: 113,
+    question: "Which of the following best describes a \"volatility smile\" in options pricing?",
+    options: [
+      "The implied volatility of options increases as the strike price moves away from the current price",
+      "The implied volatility of options decreases as the strike price moves away from the current price",
+      "The implied volatility of options is constant across all strike prices",
+      "The implied volatility of options is unrelated to the strike price"
+    ],
+    correctAnswer: "The implied volatility of options increases as the strike price moves away from the current price"
+  },
+  {
+    id: 114,
+    question: "What does the term \"contango\" refer to in the context of futures markets?",
+    options: [
+      "A situation where the futures price is higher than the spot price",
+      "A situation where the futures price is lower than the spot price",
+      "A situation where the futures price equals the spot price",
+      "A situation where the futures price is highly volatile"
+    ],
+    correctAnswer: "A situation where the futures price is higher than the spot price"
+  },
+  {
+    id: 115,
+    question: "Which of the following is a key feature of a \"leveraged ETF\"?",
+    options: [
+      "It uses derivatives to amplify the returns of an underlying index",
+      "It invests only in low-risk securities",
+      "It guarantees a fixed return on investment",
+      "It is only available to institutional investors"
+    ],
+    correctAnswer: "It uses derivatives to amplify the returns of an underlying index"
+  },
+  {
+    id: 116,
+    question: "What is the primary purpose of a \"delta-neutral\" strategy in options trading?",
+    options: [
+      "To eliminate the sensitivity of the portfolio to small changes in the underlying asset's price",
+      "To maximize the sensitivity of the portfolio to changes in volatility",
+      "To hedge against changes in interest rates",
+      "To speculate on the direction of the underlying asset's price"
+    ],
+    correctAnswer: "To eliminate the sensitivity of the portfolio to small changes in the underlying asset's price"
+  },
+  {
+    id: 117,
+    question: "Which of the following best describes a \"variance swap\"?",
+    options: [
+      "A derivative contract that allows investors to trade the volatility of an asset",
+      "A derivative contract that allows investors to trade the price of a commodity",
+      "A derivative contract that allows investors to trade the credit risk of a bond",
+      "A derivative contract that allows investors to trade the interest rate of a bond"
+    ],
+    correctAnswer: "A derivative contract that allows investors to trade the volatility of an asset"
+  },
+  {
+    id: 118,
+    question: "What does the term \"rho\" measure in the context of options pricing?",
+    options: [
+      "The sensitivity of the option price to changes in interest rates",
+      "The sensitivity of the option price to changes in volatility",
+      "The sensitivity of the option price to changes in the underlying asset's price",
+      "The sensitivity of the option price to time decay"
+    ],
+    correctAnswer: "The sensitivity of the option price to changes in interest rates"
+  },
+  {
+    id: 119,
+    question: "Which of the following is a key feature of a \"weather derivative\"?",
+    options: [
+      "It is a financial instrument used to hedge against weather-related risks",
+      "It is a type of equity security with voting rights",
+      "It guarantees a fixed return on investment",
+      "It is only available to institutional investors"
+    ],
+    correctAnswer: "It is a financial instrument used to hedge against weather-related risks"
+  },
+  {
+    id: 120,
+    question: "What is the primary purpose of a \"quantitative easing\" (QE) policy?",
+    options: [
+      "To increase the money supply by purchasing government securities",
+      "To reduce the money supply by selling government securities",
+      "To increase interest rates to control inflation",
+      "To reduce government debt by issuing new securities"
+    ],
+    correctAnswer: "To increase the money supply by purchasing government securities"
   }
 ];
 
