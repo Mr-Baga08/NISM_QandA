@@ -1416,7 +1416,7 @@ function App() {
           <h1 className="text-3xl font-bold text-center mb-6">Securities Market Quiz</h1>
           <div className="space-y-4 text-center">
             <p className="text-gray-600">
-              • Test consists of 10 random questions<br />
+              • Test consists of 20 random questions<br />
               • Time limit: 12 minutes<br />
               • +4 marks for correct answer<br />
               • -1 mark for wrong answer<br />
